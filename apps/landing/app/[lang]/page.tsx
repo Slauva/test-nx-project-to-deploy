@@ -1,4 +1,5 @@
 import styles from './page.module.scss';
+import {Uikit} from "@test/uikit";
 
 export default async function Index() {
   /*
@@ -15,6 +16,7 @@ export default async function Index() {
               <span> Hello there, </span>
               Welcome landing 👋
             </h1>
+            <Uikit/>
           </div>
 
           <div id="hero" className="rounded">
